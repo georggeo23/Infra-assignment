@@ -6,8 +6,8 @@
   html,
   body {
       min-width: 290px;
-      color: #4d4e53;
-      background-color: #ffffff;
+      color: #000000;
+      background-color: #e0e0e0;
       font-family: Roboto, sans-serif;
       line-height: 1.5;
   }
@@ -52,8 +52,8 @@
       padding: 20px;
       white-space: pre-line;
       border-radius: 8px;
-      background-color: #f8f9fa;
-      border: 1px solid #e9ecef;
+      background-color: #e9ead9;
+      border: 1px solid #dfe8f0;
       position: relative;
       line-height: 2;
       text-align: left;
