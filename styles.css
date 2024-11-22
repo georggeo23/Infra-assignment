@@ -14,22 +14,25 @@
   
   body {
       display: block;
-      margin: 8px;
+      margin: 0;
       font-family: 'Newsreader', serif;
+      background-color: #f5f5f5;
   }
   
   main {
       position: absolute;
       margin-left: 310px;
-      padding: 20px;
+      padding: 40px;
       margin-bottom: 110px;
+      max-width: 1200px;
   }
   
   header {
-      color: black;
+      color: #2c3e50;
       margin: 10px;
       text-align: center;
       font-size: 1.8em;
+      font-weight: 600;
   }
   
   #main-doc header {
@@ -48,21 +51,26 @@
       margin: 25px;
       padding: 20px;
       white-space: pre-line;
-      border-radius: 5px;
-      background-color: beige;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+      border: 1px solid #e9ecef;
       position: relative;
       line-height: 2;
       text-align: left;
+      font-family: 'Consolas', monospace;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
   }
   
   #navbar {
       position: fixed !important;
-      border-right: 2px solid #9b9999;
+      border-right: 1px solid #dee2e6;
       min-width: 250px;
       width: 300px;
       height: 100%;
       top: 0;
       left: 0;
+      background-color: white;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.05);
   }
   
   #navbar ul {
@@ -81,8 +89,30 @@
   
   .nav-link {
       text-decoration: none;
-      color: black;
+      color: #495057;
       display: block;
-      padding: 10px 30px;
+      padding: 12px 30px;
       cursor: pointer;
+      transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .nav-link:hover {
+      background-color: #e9ecef;
+      color: #228be6;
+  }
+  
+  .main-section {
+      background-color: white;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  ul {
+      padding-left: 40px;
+  }
+  
+  li {
+      margin-bottom: 8px;
   }
